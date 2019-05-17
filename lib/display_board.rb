@@ -1,8 +1,11 @@
 def display_board
-  puts "A Tic Tac Toe Board"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
+  cell = "   "
+  separator = "|"
+  lines = "-----------"
+
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
 end
