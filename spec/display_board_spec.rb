@@ -12,6 +12,8 @@ describe '/lib/display_board.rb' do
       expect(output).to include("   ")
     end
     
+      
+    
     it 'separates cells with a | character' do
       output = capture_puts{ display_board }
 
